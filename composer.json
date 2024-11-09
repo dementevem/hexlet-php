@@ -8,8 +8,12 @@
     "authors": [
         {
             "name": "dementevem",
-            "email": "dementev.em@gmail.com"
+            "email": "dementev.em@gmail.com",
+            "homepage": "https://github.com/dementevem",
+            "role": "Developer"
         }
     ],
-    "require": {}
+    "require": {
+        "php": "8.13" 
+    }
 }
