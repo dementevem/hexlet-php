@@ -3,7 +3,10 @@
     "autoload": {
         "psr-4": {
             "Dementevem\\HexletPhp\\": "src/"
-        }
+        },
+        "files": [
+            "src/Runner.php"
+        ]
     },
     "authors": [
         {
@@ -15,5 +18,11 @@
     ],
     "require": {
         "illuminate/collections": "^11.30"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.10"
+    },
+    "scripts": {
+    "phpcs": "phpcs"
     }
 }
